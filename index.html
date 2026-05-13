@@ -920,7 +920,7 @@
     <!-- Tabs -->
     <div class="tabs">
       <button class="tab-btn active" data-tab="ativa" onclick="switchTab('ativa')">
-        Disponíveis <span class="tab-count" id="count-ativa">1</span>
+        Disponíveis <span class="tab-count" id="count-ativa">2</span>
       </button>
       <button class="tab-btn" data-tab="proxima" onclick="switchTab('proxima')">
         Próximas <span class="tab-count" id="count-proxima">0</span>
@@ -955,6 +955,31 @@
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Participar da Pesquisa
           </a>
           <button class="btn-detalhes" onclick="openModal('1')">Ver detalhes</button>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card" data-status="ativa">
+        <div class="card-accent navy"></div>
+        <div class="card-body">
+          <div class="card-top-row">
+            <div class="card-coleta"><span class="dot"></span> Coleta Ativa</div>
+            <div class="card-datapoint">DATA_POINT_02</div>
+          </div>
+          <h3>Ferramentas de Apoio à Conciliação Bancária das Unidades Gestoras</h3>
+          <p>Mapeamento de ferramentas utilizadas pelos estados para conciliação bancária, verificando aderência entre extratos bancários e registros no SIAFIC, arquitetura da solução e nível de automação.</p>
+          <div class="card-meta">
+            <div class="card-meta-item"><i class="fa-regular fa-clock"></i> ~8 min</div>
+            <div class="card-meta-item"><i class="fa-regular fa-file-lines"></i> 4 questões</div>
+            <div class="card-meta-item"><i class="fa-solid fa-location-dot"></i> Demanda: PE</div>
+          </div>
+          <div class="card-prazo"><i class="fa-regular fa-calendar-xmark"></i> Encerra em: 30/05/2026</div>
+        </div>
+        <div class="card-footer">
+          <a href="https://docs.google.com/forms/d/15xOKtMrEUqY4HIlNanFYPbWaQmIOrjNqMZ37tL8Nfcc/viewform" target="_blank" class="btn-participar">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Participar da Pesquisa
+          </a>
+          <button class="btn-detalhes" onclick="openModal('2')">Ver detalhes</button>
         </div>
       </div>
 
@@ -1067,6 +1092,17 @@
         prazo:     '20/05/2026',
         topicos:   ['NBC TSP', 'Obras Públicas', 'Ativo Imobilizado', 'Despesas de Capital', 'Operações de Crédito'],
         link:      'https://docs.google.com/forms/d/1ilryjYC3szEtUpn8zbciLYAF4PhGecaAFqfmepv5QB8/viewform'
+      },
+      '2': {
+        status:    'ativa',
+        datapoint: 'DATA_POINT_02',
+        titulo:    'Ferramentas de Apoio à Conciliação Bancária das Unidades Gestoras',
+        resumo:    'Pesquisa destinada a mapear a existência e as características de ferramentas utilizadas pelos estados para apoio à conciliação bancária das unidades gestoras. Busca-se identificar soluções que assegurem a aderência entre os saldos constantes nos extratos bancários e aqueles registrados no sistema contábil (SIAFIC), bem como compreender aspectos relacionados à arquitetura da solução (interna ou externa ao sistema contábil) e ao nível de automação do processo (automatizado ou semiautomatizado), incluindo o grau de intervenção humana requerido.',
+        tempo:     '~8 min',
+        questoes:  '4',
+        prazo:     '30/05/2026',
+        topicos:   ['SIAFIC', 'Conciliação Bancária', 'Automação', 'Saldos Contábeis'],
+        link:      'https://docs.google.com/forms/d/15xOKtMrEUqY4HIlNanFYPbWaQmIOrjNqMZ37tL8Nfcc/viewform'
       }
     };
 
