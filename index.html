@@ -939,7 +939,6 @@
         <div class="card-body">
           <div class="card-top-row">
             <div class="card-coleta"><span class="dot"></span> Coleta Ativa</div>
-            <div class="card-datapoint">DATA_POINT_01</div>
           </div>
           <h3>Classificação de Despesas Acessórias de Apoio Operacional em Projetos de Investimento (Obras Públicas)</h3>
           <p>Mapeamento das práticas contábeis sobre classificação de despesas correntes executadas em apoio direto a obras públicas e sua integração ao custo do ativo imobilizado.</p>
@@ -964,7 +963,6 @@
         <div class="card-body">
           <div class="card-top-row">
             <div class="card-coleta"><span class="dot"></span> Coleta Ativa</div>
-            <div class="card-datapoint">DATA_POINT_02</div>
           </div>
           <h3>Sistemas/Módulos de Conciliação Bancária nos Tesouros Estaduais</h3>
           <p>Mapeamento de ferramentas utilizadas pelos estados para conciliação bancária, verificando aderência entre extratos bancários e registros no SIAFIC, arquitetura da solução e nível de automação.</p>
@@ -1049,9 +1047,6 @@
       <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
 
       <div class="modal-header">
-        <div class="modal-datapoint">
-          <span class="dot"></span><span id="m-datapoint-text"></span>
-        </div>
         <div class="modal-title" id="m-title"></div>
       </div>
 
@@ -1109,8 +1104,7 @@
     function openModal(id) {
       const d = pesquisas[id];
       if (!d) return;
-      document.getElementById('m-datapoint-text').textContent = d.datapoint;
-      document.getElementById('m-title').textContent          = d.titulo;
+      document.getElementById('m-title').textContent = d.titulo;
       document.getElementById('m-resumo').textContent = d.resumo;
       document.getElementById('m-prazo').textContent  = d.prazo;
       document.getElementById('m-meta').innerHTML =
