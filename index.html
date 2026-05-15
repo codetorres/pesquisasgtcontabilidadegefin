@@ -920,7 +920,7 @@
     <!-- Tabs -->
     <div class="tabs">
       <button class="tab-btn active" data-tab="ativa" onclick="switchTab('ativa')">
-        Disponíveis <span class="tab-count" id="count-ativa">2</span>
+        Disponíveis <span class="tab-count" id="count-ativa">3</span>
       </button>
       <button class="tab-btn" data-tab="proxima" onclick="switchTab('proxima')">
         Próximas <span class="tab-count" id="count-proxima">0</span>
@@ -978,6 +978,30 @@
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Participar da Pesquisa
           </a>
           <button class="btn-detalhes" onclick="openModal('2')">Ver detalhes</button>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card" data-status="ativa">
+        <div class="card-accent navy"></div>
+        <div class="card-body">
+          <div class="card-top-row">
+            <div class="card-coleta"><span class="dot"></span> Coleta Ativa</div>
+          </div>
+          <h3>Inclusão de Pagamentos de Precatórios no Cômputo da Educação (MDE/RREO - Anexo 8)</h3>
+          <p>Mapeamento da viabilidade de incluir pagamentos de precatórios de pessoal ativo da educação no MDE, considerando a sistemática de repasse ao Tribunal de Justiça.</p>
+          <div class="card-meta">
+            <div class="card-meta-item"><i class="fa-regular fa-clock"></i> ~15 min</div>
+            <div class="card-meta-item"><i class="fa-regular fa-file-lines"></i> 8 questões</div>
+            <div class="card-meta-item"><i class="fa-solid fa-location-dot"></i> Demanda: PE</div>
+          </div>
+          <div class="card-prazo"><i class="fa-regular fa-calendar-xmark"></i> Encerra em: 30/05/2026</div>
+        </div>
+        <div class="card-footer">
+          <a href="https://forms.gle/R3JVX1g1ShxZSvrK6" target="_blank" class="btn-participar">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Participar da Pesquisa
+          </a>
+          <button class="btn-detalhes" onclick="openModal('3')">Ver detalhes</button>
         </div>
       </div>
 
@@ -1098,6 +1122,17 @@
         prazo:     '30/05/2026',
         topicos:   ['SIAFIC', 'Conciliação Bancária', 'Automação', 'Saldos Contábeis'],
         link:      'https://docs.google.com/forms/d/15xOKtMrEUqY4HIlNanFYPbWaQmIOrjNqMZ37tL8Nfcc/viewform'
+      },
+      '3': {
+        status:    'ativa',
+        datapoint: 'DATA_POINT_03',
+        titulo:    'Inclusão de Pagamentos de Precatórios no Cômputo da Educação (MDE/RREO - Anexo 8)',
+        resumo:    'Análise da possibilidade de incluir pagamentos de precatórios no gasto de educação nos mapeamentos da MDE (RREO - Anexo 8, LDB art. 72). Embora as naturezas 3.1.90.91.01, 3.1.90.91.02, 3.1.90.91.25 e 3.1.90.91.97 sejam permitidas, o repasse estadual ocorre como adiantamento ao Tribunal de Justiça, sem detalhamento por tipo de precatório ou órgão de origem, o que limita a identificação dos pagamentos efetivos de pessoal ativo da educação no cômputo final.',
+        tempo:     '~15 min',
+        questoes:  '8',
+        prazo:     '30/05/2026',
+        topicos:   ['MDE', 'RREO - Anexo 8', 'LDB art. 72', 'Precatórios', 'Tribunal de Justiça', 'Execução Orçamentária'],
+        link:      'https://forms.gle/R3JVX1g1ShxZSvrK6'
       }
     };
 
@@ -1119,6 +1154,9 @@
       } else if (d.status === 'proxima') {
         mLink.className = 'btn-iniciar proxima';
         mLink.innerHTML = '<i class="fa-solid fa-clock"></i> &nbsp;Em Breve';
+      } else if (!d.link || d.link === '#') {
+        mLink.className = 'btn-iniciar proxima';
+        mLink.innerHTML = '<i class="fa-solid fa-link"></i> &nbsp;Link em breve';
       } else {
         mLink.innerHTML = 'Iniciar Pesquisa &nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>';
       }
