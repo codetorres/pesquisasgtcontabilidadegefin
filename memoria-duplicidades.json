@@ -1,110 +1,78 @@
-﻿{
-    "generated_at":  "2026-05-19 16:33:06 -03:00",
-    "project_root":  "W:\\DNC\\Seção de Normatização\\Robson\\Projetos\\ProjetoPesquisasGEFIN",
-    "rule":  "Sempre verificar duplicidade por estado (UF) antes de consolidar as estatisticas.",
-    "consolidation_rule":  "Se houver duplicidade por UF, consolidar pela resposta mais recente e registrar a UF duplicada na pre-analise.",
-    "has_duplicates":  true,
-    "surveys":  [
-                    {
-                        "survey_folder":  "P1 - Despesas Acessórias",
-                        "status":  "ok",
-                        "files":  [
-                                      {
-                                          "file_name":  "Pesquisa GT 06 - Contabilidade_ Pesquisa sobre Classificação de Despesas Acessórias de Apoio Operacional em Projetos de Investimento (Obras Públicas).csv.zip",
-                                          "status":  "ok",
-                                          "entries":  [
-                                                          {
-                                                              "entry_name":  "Pesquisa GT 06 - Contabilidade: Pesquisa sobre Classificação de Despesas Acessórias de Apoio Operacional em Projetos de Investimento (Obras Públicas).csv",
-                                                              "status":  "ok",
-                                                              "state_column":  "Informe o Estado",
-                                                              "timestamp_column":  "Carimbo de data/hora",
-                                                              "total_rows":  6,
-                                                              "unique_states":  6,
-                                                              "duplicate_states_count":  0,
-                                                              "duplicate_rows_count":  0,
-                                                              "duplicates":  [
-
-                                                                             ]
-                                                          }
-                                                      ]
-                                      }
-                                  ]
-                    },
-                    {
-                        "survey_folder":  "P2 - Conciliação Bancária",
-                        "status":  "ok",
-                        "files":  [
-                                      {
-                                          "file_name":  "Pesquisa GT 06 - Contabilidade_ Sistemas_Módulos de Conciliação Bancária nos Tesouros Estaduais.csv (1).zip",
-                                          "status":  "ok",
-                                          "entries":  [
-                                                          {
-                                                              "entry_name":  "Pesquisa GT 06 - Contabilidade: Sistemas/Módulos de Conciliação Bancária nos Tesouros Estaduais.csv",
-                                                              "status":  "ok",
-                                                              "state_column":  "Informe o Estado",
-                                                              "timestamp_column":  "Carimbo de data/hora",
-                                                              "total_rows":  5,
-                                                              "unique_states":  5,
-                                                              "duplicate_states_count":  0,
-                                                              "duplicate_rows_count":  0,
-                                                              "duplicates":  [
-
-                                                                             ]
-                                                          }
-                                                      ]
-                                      },
-                                      {
-                                          "file_name":  "Pesquisa GT 06 - Contabilidade_ Sistemas_Módulos de Conciliação Bancária nos Tesouros Estaduais.csv.zip",
-                                          "status":  "ok",
-                                          "entries":  [
-                                                          {
-                                                              "entry_name":  "Pesquisa GT 06 - Contabilidade: Sistemas/Módulos de Conciliação Bancária nos Tesouros Estaduais.csv",
-                                                              "status":  "ok",
-                                                              "state_column":  "Informe o Estado",
-                                                              "timestamp_column":  "Carimbo de data/hora",
-                                                              "total_rows":  5,
-                                                              "unique_states":  4,
-                                                              "duplicate_states_count":  1,
-                                                              "duplicate_rows_count":  2,
-                                                              "duplicates":  [
-                                                                                 {
-                                                                                     "state":  "AP",
-                                                                                     "count":  2,
-                                                                                     "timestamps":  [
-                                                                                                        "2026/05/15 12:44:21 PM GMT-3",
-                                                                                                        "2026/05/15 8:07:51 PM GMT-3"
-                                                                                                    ]
-                                                                                 }
-                                                                             ]
-                                                          }
-                                                      ]
-                                      }
-                                  ]
-                    },
-                    {
-                        "survey_folder":  "P3 - Precatórios Educação",
-                        "status":  "ok",
-                        "files":  [
-                                      {
-                                          "file_name":  "Pesquisa GT 06 - Contabilidade_ Inclusão de despesas com Precatórios no Gasto de Pessoal.csv.zip",
-                                          "status":  "ok",
-                                          "entries":  [
-                                                          {
-                                                              "entry_name":  "Pesquisa GT 06 - Contabilidade: Inclusão de despesas com Precatórios no Gasto de Pessoal.csv",
-                                                              "status":  "ok",
-                                                              "state_column":  "Informe o Estado",
-                                                              "timestamp_column":  "Carimbo de data/hora",
-                                                              "total_rows":  2,
-                                                              "unique_states":  2,
-                                                              "duplicate_states_count":  0,
-                                                              "duplicate_rows_count":  0,
-                                                              "duplicates":  [
-
-                                                                             ]
-                                                          }
-                                                      ]
-                                      }
-                                  ]
-                    }
-                ]
+{
+  "generated_at": "2026-05-21 11:43:27 -03:00",
+  "project_root": "\\\\FILESERVER\\CAGE\\DNC\\Seção de Normatização\\Robson\\Projetos\\ProjetoPesquisasGEFIN",
+  "rule": "Sempre verificar duplicidade por estado (UF) antes de consolidar as estatisticas.",
+  "consolidation_rule": "Se houver duplicidade por UF, consolidar pela resposta mais recente e registrar a UF duplicada na pre-analise.",
+  "has_duplicates": false,
+  "surveys": [
+    {
+      "survey_folder": "P1 - Despesas Acessórias",
+      "status": "ok",
+      "files": [
+        {
+          "file_name": "Pesquisa GT 06 - Contabilidade_ Pesquisa sobre Classificação de Despesas Acessórias de Apoio Operacional em Projetos de Investimento (Obras Públicas).csv.zip",
+          "status": "ok",
+          "entries": [
+            {
+              "entry_name": "Pesquisa GT 06 - Contabilidade: Pesquisa sobre Classificação de Despesas Acessórias de Apoio Operacional em Projetos de Investimento (Obras Públicas).csv",
+              "status": "ok",
+              "state_column": "Informe o Estado",
+              "timestamp_column": "Carimbo de data/hora",
+              "total_rows": 8,
+              "unique_states": 8,
+              "duplicate_states_count": 0,
+              "duplicate_rows_count": 0,
+              "duplicates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "survey_folder": "P2 - Conciliação Bancária",
+      "status": "ok",
+      "files": [
+        {
+          "file_name": "Pesquisa GT 06 - Contabilidade_ Sistemas_Módulos de Conciliação Bancária nos Tesouros Estaduais.csv.zip",
+          "status": "ok",
+          "entries": [
+            {
+              "entry_name": "Pesquisa GT 06 - Contabilidade: Sistemas/Módulos de Conciliação Bancária nos Tesouros Estaduais.csv",
+              "status": "ok",
+              "state_column": "Informe o Estado",
+              "timestamp_column": "Carimbo de data/hora",
+              "total_rows": 11,
+              "unique_states": 11,
+              "duplicate_states_count": 0,
+              "duplicate_rows_count": 0,
+              "duplicates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "survey_folder": "P3 - Precatórios Educação",
+      "status": "ok",
+      "files": [
+        {
+          "file_name": "Pesquisa GT 06 - Contabilidade_ Inclusão de despesas com Precatórios no Gasto de Pessoal.csv.zip",
+          "status": "ok",
+          "entries": [
+            {
+              "entry_name": "Pesquisa GT 06 - Contabilidade: Inclusão de despesas com Precatórios no Gasto de Pessoal.csv",
+              "status": "ok",
+              "state_column": "Informe o Estado",
+              "timestamp_column": "Carimbo de data/hora",
+              "total_rows": 8,
+              "unique_states": 8,
+              "duplicate_states_count": 0,
+              "duplicate_rows_count": 0,
+              "duplicates": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
