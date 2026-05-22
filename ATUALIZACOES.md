@@ -17,7 +17,7 @@ Antes de atualizar as estatísticas:
 
 ---
 
-### [v4] 22/05/2026 — `(pendente)`
+### [v4] 22/05/2026 — `29e4086`
 
 **Tipo:** Atualização de estatísticas (bases de 22/05/2026)
 **Responsável:** Robson Torres
