@@ -17,6 +17,59 @@ Antes de atualizar as estatísticas:
 
 ---
 
+### [v4] 22/05/2026 — `(pendente)`
+
+**Tipo:** Atualização de estatísticas (bases de 22/05/2026)
+**Responsável:** Robson Torres
+
+#### Participação
+
+| Pesquisa | Anterior | Atual | Novos respondentes |
+|---|---|---|---|
+| P1 — Despesas Acessórias | 8 UFs (30%) | **12 UFs (44%)** | AL, AP, ES, GO |
+| P2 — Conciliação Bancária | 11 UFs (41%) | **14 UFs (52%)** | AL, ES, SC |
+| P3 — Precatórios Educação | 8 UFs (30%) | **12 UFs (44%)** | AL, AP, ES, GO |
+
+> **Marco:** P2 ultrapassou 50% de participação (14 de 27 UFs).
+
+#### UFs respondentes por pesquisa
+
+- **P1:** AL, AP, CE, ES, GO, PE, PI, PR, RN, RR, RS, TO
+- **P2:** AL, AP, CE, ES, GO, PE, PI, PR, RN, RR, RS, SC, SE, TO
+- **P3:** AL, AP, CE, ES, GO, PE, PI, PR, RN, RR, RS, TO
+
+#### Controle de qualidade
+
+- Duplicidades detectadas: **nenhuma** (P1, P2, P3)
+- Deduplicação aplicada: não foi necessária
+
+#### Destaques dos resultados
+
+**P1 — Despesas Acessórias (12 UFs)**
+- Q4 (Tratamento patrimonial): "Obras em Andamento" consolida-se como prática dominante — 10/12 (83%)
+- Q5 (TCE): 92% sem consulta formalizada (11/12)
+- Q3 (Requisitos): Vinculação Direta lidera isolada (8/12), Rastreabilidade em 2º (7/12)
+- Q1 (Classificação): "Outro" ainda lidera (5/12); corrente cresce para 4; capital para 3
+
+**P2 — Conciliação Bancária (14 UFs)**
+- Q1 (Dispõe de ferramenta): Sim consolida liderança — 8/14 (57%)
+- Q2/Q3: Módulo nativo SIAFIC lidera em 2 (8/14); Q3 em empate triplo (4 cada: sem ferramenta, terceirizada, nativa)
+- Q4 (Automação): nível médio segue líder isolado — 9/14 (64%)
+
+**P3 — Precatórios Educação (12 UFs)**
+- Q1 (Inclusão no MDE): 92% Não (11/12) — surge 1ª resposta "Sim"
+- Q2 (Repasse ao TJ): Não lidera com 9/12, mas Sim cresce para 3
+- Q5–Q7 (TCE/normativo): unanimidade mantida — 100% Não em todas
+- Q4 (Unidade Gestora): empate entre "Não se aplica" e "Outro" (5 cada)
+
+#### Arquivos alterados
+
+- `index.html` — bloco `AUTO_STATS` regenerado
+- `memoria-duplicidades.json` / `.md` — atualizados
+- `tmp_stats/auto_stats_state.json` — atualizado
+
+---
+
 ### [v3] 21/05/2026 — `a6ace1e`
 
 **Tipo:** Atualização de estatísticas (bases de 21/05/2026)

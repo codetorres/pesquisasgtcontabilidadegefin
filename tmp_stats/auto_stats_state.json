@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-21 11:43:27 -03:00",
+  "generated_at": "2026-05-22 13:16:25 -03:00",
   "latest_files": {
     "1": {
       "folder": "P1 - Despesas Acessórias",
       "file_name": "Pesquisa GT 06 - Contabilidade_ Pesquisa sobre Classificação de Despesas Acessórias de Apoio Operacional em Projetos de Investimento (Obras Públicas).csv.zip",
-      "sha256": "9f8be9d1dd15ab1864d2efb221c108934e04fb61d75db756682e3db1cf2677ee"
+      "sha256": "43ac3d93c759f1d993615d387068b8b06922691551c3372cea3cf84eada6711e"
     },
     "2": {
       "folder": "P2 - Conciliação Bancária",
       "file_name": "Pesquisa GT 06 - Contabilidade_ Sistemas_Módulos de Conciliação Bancária nos Tesouros Estaduais.csv.zip",
-      "sha256": "f2e3aa3ca315f311eff5ab418ec46f9ccb9d320aedb3bfc589bf32092b54b977"
+      "sha256": "9a7bc5fa5598a0f015d3bd8496ce0ec07bca56ca2295d479c6081131ae3888e9"
     },
     "3": {
       "folder": "P3 - Precatórios Educação",
       "file_name": "Pesquisa GT 06 - Contabilidade_ Inclusão de despesas com Precatórios no Gasto de Pessoal.csv.zip",
-      "sha256": "5d9674c5a41c55557e6ce638793efc3b4f1e62239756bac6c46ad9a3f85a8f39"
+      "sha256": "8e30c6862d17083037b7da9c209cc7f2084080b8c19fc83e1269b54b7c70177e"
     }
   }
 }

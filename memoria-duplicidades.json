@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21 11:43:27 -03:00",
+  "generated_at": "2026-05-22 13:16:25 -03:00",
   "project_root": "\\\\FILESERVER\\CAGE\\DNC\\Seção de Normatização\\Robson\\Projetos\\ProjetoPesquisasGEFIN",
   "rule": "Sempre verificar duplicidade por estado (UF) antes de consolidar as estatisticas.",
   "consolidation_rule": "Se houver duplicidade por UF, consolidar pela resposta mais recente e registrar a UF duplicada na pre-analise.",
@@ -18,8 +18,8 @@
               "status": "ok",
               "state_column": "Informe o Estado",
               "timestamp_column": "Carimbo de data/hora",
-              "total_rows": 8,
-              "unique_states": 8,
+              "total_rows": 12,
+              "unique_states": 12,
               "duplicate_states_count": 0,
               "duplicate_rows_count": 0,
               "duplicates": []
@@ -41,8 +41,8 @@
               "status": "ok",
               "state_column": "Informe o Estado",
               "timestamp_column": "Carimbo de data/hora",
-              "total_rows": 11,
-              "unique_states": 11,
+              "total_rows": 14,
+              "unique_states": 14,
               "duplicate_states_count": 0,
               "duplicate_rows_count": 0,
               "duplicates": []
@@ -64,8 +64,8 @@
               "status": "ok",
               "state_column": "Informe o Estado",
               "timestamp_column": "Carimbo de data/hora",
-              "total_rows": 8,
-              "unique_states": 8,
+              "total_rows": 12,
+              "unique_states": 12,
               "duplicate_states_count": 0,
               "duplicate_rows_count": 0,
               "duplicates": []
